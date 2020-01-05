@@ -32,7 +32,7 @@ AddEventHandler('chatMessage', function(source, name, msg)
     end
     if sm[1] == "/anontweet" then
         CancelEvent()
-        TriggerClientEvent("chatMessage", -1 "^8Anonymous Tweet | " .. name, {255, 255, 255}, string.sub(msg,5))
+        TriggerClientEvent("chatMessage", -1 "^8Anonymous Tweet | ^7" .. name, {255, 255, 255}, string.sub(msg,5))
     end
 end)    
 enable_roleplay_commands
