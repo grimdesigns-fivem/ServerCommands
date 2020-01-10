@@ -15,25 +15,25 @@ AddEventHandler('chatMessage', function(source, name, msg)
 	if sm[1] == "/do" then
 		CancelEvent()
 		TriggerClientEvent('chatMessage', -1, "^2Do | ^7" .. name, { 128, 128, 128 }, string.sub(msg,5))
-	end
+	        --[[ TriggerEvent('DiscordBot:ToDiscord', 'chat', GetPlayerName(id) .. ' [ID: ' .. GetPlayerServerId(id) .. ']', data.message, 'steam', GetPlayerServerId(id), false, true) ]]	
+        end
 
 	if sm[1] == "/911" then
 		CancelEvent()
 		TriggerClientEvent('chatMessage', -1, "^8(911) | ^7" .. name, { 255, 255, 255 }, string.sub(msg,5))
+                --[[ TriggerEvent('DiscordBot:ToDiscord', 'chat', GetPlayerName(id) .. ' [ID: ' .. GetPlayerServerId(id) .. ']', data.message, 'steam', GetPlayerServerId(id), false, true) ]]	
 	end
 
 	if sm[1] == "/news" then
         CancelEvent()
         TriggerClientEvent("chatMessage", -1, "^3News", {255, 255, 255}, string.sub(msg,6))
+        --[[ TriggerEvent('DiscordBot:ToDiscord', 'chat', GetPlayerName(id) .. ' [ID: ' .. GetPlayerServerId(id) .. ']', data.message, 'steam', GetPlayerServerId(id), false, true) ]]	
     end
 
     if sm[1] == "/ad" then
         CancelEvent()
         TriggerClientEvent("chatMessage", -1, "^2AD | " .. name, {255, 255, 255}, string.sub(msg,5))
-    end
-    if sm[1] == "/anontweet" then
-        CancelEvent()
-        TriggerClientEvent("chatMessage", -1 "^8Anonymous Tweet | ^7" .. name, {255, 255, 255}, string.sub(msg,5))
+        --[[ TriggerEvent('DiscordBot:ToDiscord', 'chat', GetPlayerName(id) .. ' [ID: ' .. GetPlayerServerId(id) .. ']', data.message, 'steam', GetPlayerServerId(id), false, true) ]]	
     end
 end)    
 enable_roleplay_commands
