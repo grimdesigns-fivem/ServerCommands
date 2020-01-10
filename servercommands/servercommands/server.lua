@@ -9,7 +9,8 @@ AddEventHandler('chatMessage', function(source, name, msg)
 	if sm[1] == "/me" then
 		CancelEvent()
 		TriggerClientEvent('chatMessage', -1, "^3Me | ^7" .. name, { 128, 128, 128 }, string.sub(msg,5))
-	end
+                --[[ TriggerEvent('DiscordBot:ToDiscord', 'chat', GetPlayerName(id) .. ' [ID: ' .. GetPlayerServerId(id) .. ']', data.message, 'steam', GetPlayerServerId(id), false, true) ]]	
+        end
 
 	if sm[1] == "/do" then
 		CancelEvent()
