@@ -37,6 +37,6 @@ develop before giving you a response. Keep in mind, not all requests are accepte
    for support prior to reaching out to us as we will update it frequently with HotFixes and Bug Patches 😁</p>
 <hr>
 <img alt="Support" src="https://i.imgur.com/FQIqf6o.png" width="200"> 
-<h4>To send in a Suggestion form or Contact us for support, Join our <a target="_blank" onclick="trackCampaignWebClick('', 'description');" rel="nofollow" href="https://discord.gg/7feb5jN">Discord Server</a></h5>
+<p>To send in a Suggestion form or Contact us for support, Join our <a target="_blank" onclick="trackCampaignWebClick('', 'description');" rel="nofollow" href="https://discord.gg/7feb5jN">Discord Server</a></p>
 </center>
 </body></html>
