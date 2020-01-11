@@ -14,8 +14,10 @@
  
 (Example: "Why doesn't this script have a /anontweet command?")</b>
 </p><p>A: FiveM Community Commands is still Early Release stages and is constantly being updated if you have a
-Command you would like to see added you can make a suggestion Using our Command Requests form <a target="_blank" onclick="trackCampaignWebClick('', 'description');" rel="nofollow" href="https://github.com/TheRealToxicDev/FiveM-Community-Commands/blob/ServerCommands-V1.0.2/requests/COMMAND-REQUESTS.md">Suggest A Feature Here</a> <p>All suggestions
-     Will be looked at in the order they were recieved, Suggestion forms should given to us in a Support Ticket on our Discord Server</p>
+Command you would like to see added you can make a suggestion Using our Command Requests form 
+
+<a target="_blank" onclick="trackCampaignWebClick('', 'description');" rel="nofollow" href="https://github.com/TheRealToxicDev/FiveM-Community-Commands/blob/ServerCommands-V1.0.2/requests/COMMAND-REQUESTS.md">Suggest A Feature Here</a> <p>All suggestions
+     Will be looked at in the order they were recieved, Suggestion forms should be given to us in a Support Ticket on our Discord Server</p>
 <hr>
 <b>Are there any requirements?</b>
 <p>FiveM Community Commands is coded to work along side my FiveMToDiscord Logs Script.</p>
